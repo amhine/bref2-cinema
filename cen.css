@@ -1,0 +1,193 @@
+.dis{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+   }
+
+   .nav{
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+    
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10;
+  }
+  .nav_bar {
+    float: left;
+   
+  }
+
+  .nav_bar_item {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .nav_barr{
+    border-radius: 20px 20px 20px 20px ;
+    color: white;
+    background-color: #FFCCFD;
+    display: block;
+    border-color: white;
+    
+  }
+  .section1{
+    
+    height:600 ;
+    background: linear-gradient(to bottom right,#CA26FF 7%,#F4CAC0 85%,#FFF3B0 100%) ;
+    border-radius: 20px 0px 100px 20px;
+    display: flex;
+  }
+  
+  .section1 img{
+ 
+  }
+  .div1{
+    width: 600px;
+    margin: 50px;
+
+  }
+  .ligne-texte {
+    display: flex;
+    align-items: center;
+    
+
+    font-size: 18px;
+    color: black;
+  }
+  
+  
+  .ligne-texte::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid black;
+    margin: 10px; 
+    
+  }
+  .ph{
+    display: flex;
+    justify-content: space-around;
+    
+
+  }
+  .ph p{
+    
+    color: white;
+    background-color: #330031;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+   
+  }
+  .div5{
+
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 200px 0px 200px;
+  
+  
+  }
+  .star{
+    background-color: black  ;
+    color: white;
+    position: right;
+  }
+  .div6{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+ padding: 8px;
+    
+  }
+  .service1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #330031;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px 0px 10px 0px;
+
+    
+  }
+  .service2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #330031;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px 0px 10px 0px;
+
+    
+  }
+  .services{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly
+    
+  
+  }
+  .ecrit{
+   margin-left: 20px;
+   
+   
+  }
+  .p1{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px;
+    color: rgb(72, 69, 69);
+    
+  }
+  .foter{
+    background-color: #330031;
+    color: white; 
+  }
+  .minifoter{
+    display: grid;
+  grid-template-columns: repeat(3, 3fr); 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    
+  }
+  footer{
+   
+    display: flex;
+    justify-content: center;
+    
+  }
+  .lign-foter{
+   
+    justify-content: center;
+    border-right: 4px white solid;
+    border-left: 3px white solid;
+    padding-left: 40px ;
+    padding-right: 40px;
+    margin-top: 20px;
+    
+  }
+  .div-tire{
+    text-align: center;
+   
+  }
+  .posi{
+    display: flex;
+    justify-content: space-around;
+  }
